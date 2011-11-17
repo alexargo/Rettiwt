@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA9442C91474C8BF005A2EA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9442C81474C8BF005A2EA1 /* UIKit.framework */; };
+		FA9442CB1474C8BF005A2EA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9442CA1474C8BF005A2EA1 /* Foundation.framework */; };
+		FA9442CD1474C8BF005A2EA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9442CC1474C8BF005A2EA1 /* CoreGraphics.framework */; };
+		FA9442D31474C8BF005A2EA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA9442D11474C8BF005A2EA1 /* InfoPlist.strings */; };
+		FA9442D51474C8BF005A2EA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9442D41474C8BF005A2EA1 /* main.m */; };
+		FA9442D91474C8BF005A2EA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9442D81474C8BF005A2EA1 /* AppDelegate.m */; };
+		FA9442ED1474C95D005A2EA1 /* CreateTiwtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9442EB1474C95D005A2EA1 /* CreateTiwtViewController.m */; };
+		FA9442EE1474C95D005A2EA1 /* CreateTiwtViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA9442EC1474C95D005A2EA1 /* CreateTiwtViewController.xib */; };
+		FA9443061474D033005A2EA1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9443041474D032005A2EA1 /* LoginViewController.m */; };
+		FA9443071474D033005A2EA1 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA9443051474D033005A2EA1 /* LoginViewController.xib */; };
+		FA94430D1474D8A1005A2EA1 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94430C1474D8A1005A2EA1 /* Parse.framework */; };
+		FA9443111474D90B005A2EA1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94430E1474D90B005A2EA1 /* AudioToolbox.framework */; };
+		FA9443121474D90B005A2EA1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA94430F1474D90B005A2EA1 /* CFNetwork.framework */; };
+		FA9443131474D90B005A2EA1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9443101474D90B005A2EA1 /* Security.framework */; };
+		FA9443161474D931005A2EA1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9443141474D931005A2EA1 /* MobileCoreServices.framework */; };
+		FA9443171474D931005A2EA1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9443151474D931005A2EA1 /* SystemConfiguration.framework */; };
+		FA9443191474D942005A2EA1 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9443181474D942005A2EA1 /* libz.1.1.3.dylib */; };
+		FA9443221474DF1A005A2EA1 /* TiwtListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9443201474DF1A005A2EA1 /* TiwtListViewController.m */; };
+		FA9443231474DF1A005A2EA1 /* TiwtListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA9443211474DF1A005A2EA1 /* TiwtListViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA9442C41474C8BF005A2EA1 /* Rettiwt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rettiwt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9442C81474C8BF005A2EA1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA9442CA1474C8BF005A2EA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA9442CC1474C8BF005A2EA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA9442D01474C8BF005A2EA1 /* Rettiwt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rettiwt-Info.plist"; sourceTree = "<group>"; };
+		FA9442D21474C8BF005A2EA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA9442D41474C8BF005A2EA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA9442D61474C8BF005A2EA1 /* Rettiwt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rettiwt-Prefix.pch"; sourceTree = "<group>"; };
+		FA9442D71474C8BF005A2EA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA9442D81474C8BF005A2EA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA9442EA1474C95D005A2EA1 /* CreateTiwtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateTiwtViewController.h; sourceTree = "<group>"; };
+		FA9442EB1474C95D005A2EA1 /* CreateTiwtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateTiwtViewController.m; sourceTree = "<group>"; };
+		FA9442EC1474C95D005A2EA1 /* CreateTiwtViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateTiwtViewController.xib; sourceTree = "<group>"; };
+		FA9443031474D032005A2EA1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FA9443041474D032005A2EA1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		FA9443051474D033005A2EA1 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		FA94430C1474D8A1005A2EA1 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		FA94430E1474D90B005A2EA1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FA94430F1474D90B005A2EA1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FA9443101474D90B005A2EA1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FA9443141474D931005A2EA1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FA9443151474D931005A2EA1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FA9443181474D942005A2EA1 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		FA94431F1474DF1A005A2EA1 /* TiwtListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiwtListViewController.h; sourceTree = "<group>"; };
+		FA9443201474DF1A005A2EA1 /* TiwtListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiwtListViewController.m; sourceTree = "<group>"; };
+		FA9443211474DF1A005A2EA1 /* TiwtListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TiwtListViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA9442C11474C8BF005A2EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9443191474D942005A2EA1 /* libz.1.1.3.dylib in Frameworks */,
+				FA9443161474D931005A2EA1 /* MobileCoreServices.framework in Frameworks */,
+				FA9443171474D931005A2EA1 /* SystemConfiguration.framework in Frameworks */,
+				FA9443111474D90B005A2EA1 /* AudioToolbox.framework in Frameworks */,
+				FA9443121474D90B005A2EA1 /* CFNetwork.framework in Frameworks */,
+				FA9443131474D90B005A2EA1 /* Security.framework in Frameworks */,
+				FA9442C91474C8BF005A2EA1 /* UIKit.framework in Frameworks */,
+				FA9442CB1474C8BF005A2EA1 /* Foundation.framework in Frameworks */,
+				FA9442CD1474C8BF005A2EA1 /* CoreGraphics.framework in Frameworks */,
+				FA94430D1474D8A1005A2EA1 /* Parse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA9442B91474C8BF005A2EA1 = {
+			isa = PBXGroup;
+			children = (
+				FA9442CE1474C8BF005A2EA1 /* Rettiwt */,
+				FA9442C71474C8BF005A2EA1 /* Frameworks */,
+				FA9443241474E5E3005A2EA1 /* Parse Franeworks */,
+				FA9442C51474C8BF005A2EA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA9442C51474C8BF005A2EA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA9442C41474C8BF005A2EA1 /* Rettiwt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA9442C71474C8BF005A2EA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA9442C81474C8BF005A2EA1 /* UIKit.framework */,
+				FA9442CA1474C8BF005A2EA1 /* Foundation.framework */,
+				FA9442CC1474C8BF005A2EA1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA9442CE1474C8BF005A2EA1 /* Rettiwt */ = {
+			isa = PBXGroup;
+			children = (
+				FA9442D71474C8BF005A2EA1 /* AppDelegate.h */,
+				FA9442D81474C8BF005A2EA1 /* AppDelegate.m */,
+				FA9442CF1474C8BF005A2EA1 /* Supporting Files */,
+				FA9443031474D032005A2EA1 /* LoginViewController.h */,
+				FA9443041474D032005A2EA1 /* LoginViewController.m */,
+				FA9443051474D033005A2EA1 /* LoginViewController.xib */,
+				FA94431F1474DF1A005A2EA1 /* TiwtListViewController.h */,
+				FA9443201474DF1A005A2EA1 /* TiwtListViewController.m */,
+				FA9443211474DF1A005A2EA1 /* TiwtListViewController.xib */,
+				FA9442EA1474C95D005A2EA1 /* CreateTiwtViewController.h */,
+				FA9442EB1474C95D005A2EA1 /* CreateTiwtViewController.m */,
+				FA9442EC1474C95D005A2EA1 /* CreateTiwtViewController.xib */,
+			);
+			path = Rettiwt;
+			sourceTree = "<group>";
+		};
+		FA9442CF1474C8BF005A2EA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA9442D01474C8BF005A2EA1 /* Rettiwt-Info.plist */,
+				FA9442D11474C8BF005A2EA1 /* InfoPlist.strings */,
+				FA9442D41474C8BF005A2EA1 /* main.m */,
+				FA9442D61474C8BF005A2EA1 /* Rettiwt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA9443241474E5E3005A2EA1 /* Parse Franeworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA94430C1474D8A1005A2EA1 /* Parse.framework */,
+				FA9443181474D942005A2EA1 /* libz.1.1.3.dylib */,
+				FA9443141474D931005A2EA1 /* MobileCoreServices.framework */,
+				FA9443151474D931005A2EA1 /* SystemConfiguration.framework */,
+				FA94430E1474D90B005A2EA1 /* AudioToolbox.framework */,
+				FA94430F1474D90B005A2EA1 /* CFNetwork.framework */,
+				FA9443101474D90B005A2EA1 /* Security.framework */,
+			);
+			name = "Parse Franeworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA9442C31474C8BF005A2EA1 /* Rettiwt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA9442E21474C8BF005A2EA1 /* Build configuration list for PBXNativeTarget "Rettiwt" */;
+			buildPhases = (
+				FA9442C01474C8BF005A2EA1 /* Sources */,
+				FA9442C11474C8BF005A2EA1 /* Frameworks */,
+				FA9442C21474C8BF005A2EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rettiwt;
+			productName = Rettiwt;
+			productReference = FA9442C41474C8BF005A2EA1 /* Rettiwt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA9442BB1474C8BF005A2EA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "A-Star Software";
+			};
+			buildConfigurationList = FA9442BE1474C8BF005A2EA1 /* Build configuration list for PBXProject "Rettiwt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA9442B91474C8BF005A2EA1;
+			productRefGroup = FA9442C51474C8BF005A2EA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA9442C31474C8BF005A2EA1 /* Rettiwt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA9442C21474C8BF005A2EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9442D31474C8BF005A2EA1 /* InfoPlist.strings in Resources */,
+				FA9442EE1474C95D005A2EA1 /* CreateTiwtViewController.xib in Resources */,
+				FA9443071474D033005A2EA1 /* LoginViewController.xib in Resources */,
+				FA9443231474DF1A005A2EA1 /* TiwtListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA9442C01474C8BF005A2EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA9442D51474C8BF005A2EA1 /* main.m in Sources */,
+				FA9442D91474C8BF005A2EA1 /* AppDelegate.m in Sources */,
+				FA9442ED1474C95D005A2EA1 /* CreateTiwtViewController.m in Sources */,
+				FA9443061474D033005A2EA1 /* LoginViewController.m in Sources */,
+				FA9443221474DF1A005A2EA1 /* TiwtListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA9442D11474C8BF005A2EA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA9442D21474C8BF005A2EA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA9442E01474C8BF005A2EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA9442E11474C8BF005A2EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA9442E31474C8BF005A2EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rettiwt/Rettiwt-Prefix.pch";
+				INFOPLIST_FILE = "Rettiwt/Rettiwt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA9442E41474C8BF005A2EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rettiwt/Rettiwt-Prefix.pch";
+				INFOPLIST_FILE = "Rettiwt/Rettiwt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA9442BE1474C8BF005A2EA1 /* Build configuration list for PBXProject "Rettiwt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9442E01474C8BF005A2EA1 /* Debug */,
+				FA9442E11474C8BF005A2EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA9442E21474C8BF005A2EA1 /* Build configuration list for PBXNativeTarget "Rettiwt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9442E31474C8BF005A2EA1 /* Debug */,
+				FA9442E41474C8BF005A2EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA9442BB1474C8BF005A2EA1 /* Project object */;
+}
