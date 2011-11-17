@@ -25,7 +25,8 @@
     nav.navigationBar.tintColor = [UIColor darkGrayColor];  
     self.window.rootViewController = nav;
     
-    [Parse setApplicationId:@"oTA1tYDRaeLtLNs4pNzKBwoWykv4ptrwdMKxHiSq" clientKey:@"iWvbdsQnPpayRteJjxGynGRFhbR520Z69DYOdJar"];
+    //TODO: Set up your own application ID / client key
+    //[Parse setApplicationId:@"application id goes here" clientKey:@"client key goes here"];
 
     [self.window makeKeyAndVisible];
     return YES;
